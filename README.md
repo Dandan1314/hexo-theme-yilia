@@ -159,9 +159,6 @@ share_jia: true
 #不需要使用某项，直接设置值为false，或注释掉
 #具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
 
-#1、多说
-duoshuo: false
-
 #2、网易云跟帖
 wangyiyun: false
 
