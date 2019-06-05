@@ -70,7 +70,7 @@ google_analytics: 'UA-140132336-1'
 favicon: /assets/img/favicon.ico
 
 #你的头像url
-avatar: /assets/img/avatar.jpg
+avatar: https://avatars0.githubusercontent.com/u/24434135
 
 #是否开启分享
 share_jia: true
