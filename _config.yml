@@ -2,8 +2,8 @@
 
 menu:
   主页: /
-  随笔: /categories
-  标签: /tags
+  # 随笔: /categories
+  # 标签: /tags
   归档: /archives
 
 # SubNav

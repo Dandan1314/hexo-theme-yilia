@@ -285,6 +285,7 @@ html, body, #container {
 #footer {
     position: relative;
     bottom: 0;
+	padding-right: 0;
     .footer-left{
         float: initial;
         margin-bottom: 10px;
@@ -374,3 +375,13 @@ html, body, #container {
         }
     }
 }
+
+#gitalk-ctn {
+    background-color: #FFF;
+    margin: 10px 0;
+    padding: 0 20px 50px;
+    .gt-container .gt-meta {
+        margin: 0 0 1.25em;
+    }
+  }
+  

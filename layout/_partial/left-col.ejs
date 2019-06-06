@@ -15,9 +15,10 @@
 		<nav class="header-menu">
 			<ul>
 				<li><a style="text-transform:none;" href="<%- url_for('/') %>">主页</a></li>
-			<% site.categories.forEach(function(item){ %>
+				<% site.categories.forEach(function(item){ %>
 				<li><a style="text-transform:none;" href="<%- url_for(item.path) %>"><%= item.name %></a></li>
-	        <%})%>
+	      <%})%>
+				<li><a style="text-transform:none;" href="<%- url_for('/archives') %>">归档</a></li>
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">

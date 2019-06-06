@@ -10,7 +10,6 @@
     overflow: hidden;
     background: #88acdb;
     -webkit-transition: all 0.2s ease-in;
-    display: -webkit-box;
     -webkit-box-orient: horizontal;
     -webkit-box-pack: center;
     -webkit-box-align: center;
@@ -33,10 +32,7 @@
     line-height: 25px;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-}
-.header-subtitle {
     padding: 0 24px;
 }
