@@ -97,7 +97,7 @@ gitalk: true
 gitalk_config:
   clientID: '2f1f9acaca1f5f1a3465'          # client id
   clientSecret: '9df7007b9a837f5dbb69802cf922e8bb6a51a07b'      # client secret
-  repo: 'Blog'              # 存储评论的 repo
+  repo: 'dandan1314.github.io'              # 存储评论的 repo
   owner: 'Dandan1314'             # 你的 github ID
   admin: ['Dandan1314']       # 有初始化评论权限的 github id
   distractionFreeMode: false # 类似Facebook评论框的全屏遮罩效果.
