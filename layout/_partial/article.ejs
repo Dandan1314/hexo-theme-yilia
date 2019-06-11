@@ -15,11 +15,7 @@
       <a class="article-more-a" href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %> >></a>
       <% } %>
     <% } else { %>
-      <% if (index) { %>
-        <%- post.content.split('</p>')[0] + '</p>' %>
-      <% } else { %>
-        <%- post.content %>
-      <% } %>
+      <%- post.content %>
     <% } %>
 
     <% if ((theme.reward_type === 2 || (theme.reward_type === 1 && post.reward)) && !index){ %>
